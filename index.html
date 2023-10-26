@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Counter</title>
+</head>
+<body>
+    <main class="container">
+
+        <!-- Reviews -->
+        <section class="containerReview">
+            <!-- Title -->
+            <div class="title">
+                <h2>Our Reviews</h2>
+                <div class="underline"></div>
+            </div>
+            <!-- Review -->
+            <article class="review">
+                <div class="img-container">
+                    <img src="./ReviewImg/woman.jpg" id="person-img" alt="" width="100px"/>
+                </div>
+                <h4 id="author">Sara Jones</h4>
+                <p id="job">UX Designer</p>
+                <p id="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptatibus quae aliquam culpa reprehenderit vel doloribus quas,
+                commodi fugiat voluptas quasi?
+                </p>
+                <!-- Prev nex buttons-->
+                <div class="button-container-review">
+                    <button class="prev-btn">
+                        <i class="arrow left">←</i>
+                    </button>
+                    <button class="next-btn">
+                        <i class="arrow right">→</i>
+                    </button>
+                    <!-- Random Button -->
+                    <button class="random-btn">Suprime Me</button>
+                </div>
+            </article>
+        </section>
+
+        <!-- Counter -->
+        <section>
+            <h1>Counter</h1>
+            <span id="value">0</span>
+            <div class="button-container">
+                <button class="btn decrease">DECREASE</button>
+                <button class="btn reset">RESET</button>
+                <button class="btn increase">INCREASE</button>
+            </div>
+        </section>
+    </main>
+
+
+    <!--Javscript-->
+    <script src="/counter/counter.js"></script>
+    <script src="/reviewjs/review.js"></script>
+    <script src="/navbar/navbar.js"></script>
+</body>
+</html>
